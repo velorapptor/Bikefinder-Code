@@ -1,0 +1,6 @@
+TypeScript// app/api/reports/route.ts
+export async function POST(request: Request) {
+  const body = await request.json();
+  // ... save to DB (mocked for now)
+  return Response.json({ success: true, reportId: "bounty-" + Date.now() });
+}
