@@ -1,0 +1,8 @@
+tsx<form className="max-w-2xl mx-auto space-y-6">
+  <h1 className="text-3xl font-bold">Meld inn stjålet sykkel</h1>
+  <input placeholder="Merke og modell" className="..." />
+  <input type="number" placeholder="Finders fee i kr" className="..." />
+  <button className="bg-emerald-600 text-white px-8 py-4 rounded-xl text-lg font-semibold">
+    Utlys bounty – finn sykkelen min!
+  </button>
+</form>
